@@ -20,7 +20,7 @@ export default class App extends Component {
   perfomrSearch = (query = "happy") => {
     axios
       .get(
-        `http://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=dc6zaTOxFJmzC`
+        `https://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=yLPM0EDDmQilp5sHndVy7Xw65MAsl4GI`
       )
       .then((response) => {
         this.setState({
